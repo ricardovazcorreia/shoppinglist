@@ -56,4 +56,15 @@ main .container .shopping .shopping-list .shopping-item {
     padding: 10px;
     margin: 5px auto;
 }
+
+main .container .shopping .shopping-list .shopping-item .delete {
+    background: red;
+    color: #fff;
+    border: none;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    float: right;
+    margin-top: -4px;
+}
 /***** Main Area END *******/
