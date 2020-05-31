@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f3f3f3;
+}
+
+/***** Header Area Start *******/
+header .navbar {
+    background-color: royalblue;
+    padding: 20px 10px;
+}
+header .navbar .logo-name {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 800;
+}
+header .navbar .logo-name span {
+    color: #151515;
+}
+/***** Header Area END *******/
+
+/***** Main Area Start *******/
+main .container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+}
+
+main .container .shopping input{
+    padding: 10px 5px;
+    width: 300px;
+    border: 1px solid #f3f3f3;
+    border-radius: 8px;
+}
+main .container .shopping #enter {
+    padding: 10px 20px;
+    background-color: royalblue;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+}
+main .container .shopping .shopping-list {
+    list-style: none;
+    margin-top: 20px;
+}
+main .container .shopping .shopping-list .shopping-item {
+    background-color: #ddd;
+    padding: 10px;
+    margin: 5px auto;
+}
+/***** Main Area END *******/
